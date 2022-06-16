@@ -157,6 +157,14 @@
     margin: 10px;
 }
 
+.gallery img:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+
 /* Services section */
 
 #services{

@@ -86,7 +86,13 @@
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+    animation: fadeIn 5s
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .btn{
     padding: 10px 35px;
